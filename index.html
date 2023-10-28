@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./index.css">
+
+    <title>Morse Code Converter</title>
+</head>
+
+<body>
+    <section>
+        <p>Plain text</p>
+    <textarea rows="1" id="text" placeholder="your massage here"></textarea>
+    <button class="btn" id="convert">
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24">
+            <path d="M7.293 4.707 14.586 12l-7.293 7.293 1.414 1.414L17.414 12 8.707 3.293 7.293 4.707z" />
+        </svg>
+        Convert</button>
+    
+        <textarea readonly id="converted">
+            The converted text will appear here.
+        </textarea>
+    </section>
+    <span>OR</span>
+    <section>    
+        <p>Morse code</p>
+        <textarea rows="1" id="morsecode" placeholder="your morse code here"></textarea>
+        <button class="btn" id="convert_morse">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24">
+                <path d="M7.293 4.707 14.586 12l-7.293 7.293 1.414 1.414L17.414 12 8.707 3.293 7.293 4.707z" />
+            </svg>
+            Convert</button>
+        
+            <textarea readonly id="converted-morse">
+                The converted morse code will appear here.
+            </textarea></section>
+    <script src="https://code.jquery.com/jquery-3.7.1.js"></script>
+
+    <script src="./index.js" type="text/javascript"> </script>
+</body>
+
+</html>
