@@ -100,4 +100,11 @@ svg{
 p,span{
   color: greenyellow;
 }
+@media only screen and (max-width: 860px) {
+  body {
+    background-color: lightblue;
+    flex-direction: column;
+    font-size: 2rem;
+  }
+}
 
